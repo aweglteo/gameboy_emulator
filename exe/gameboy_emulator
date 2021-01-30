@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "gameboy_emulator"
+
+cli = GameboyEmulator::CLI.new ARGV
+cli.run
